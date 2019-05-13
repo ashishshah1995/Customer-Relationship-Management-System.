@@ -135,5 +135,10 @@ In hibernate API there are 2 methods to save data in database
 
 # Working Demo of the project
 
+    1. Adding the customer
+    2. Updating the customer
+    3. Deleting the customer
+    4. Searching the customer
+
 ![ScreenCapture_13-05-2019-15 42 15 (1)](https://user-images.githubusercontent.com/26305085/57651763-1178fb00-759c-11e9-82f8-f96e31eda619.gif)
 
