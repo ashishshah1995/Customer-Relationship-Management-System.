@@ -8,6 +8,8 @@ Build web application for allowing user to make CRUD operations which includes
 
 3. Deleting the customer
 
+4. Searching the customer
+
 
 # Running the project
 
@@ -38,6 +40,8 @@ Build web application for allowing user to make CRUD operations which includes
 4. Update the customer
 
 5. Delete the customer
+
+6. Search the customer
 
 In this project browser make requests to customer controller which will make use of Data Access object (DAO). DAO will access database for by using hibernate API, the controller will place into spring MVC model and send it to jsp pages which will render data to screen
 
@@ -118,3 +122,13 @@ In hibernate API there are 2 methods to save data in database
 2. Add code for "Delete"
 
 3. Controller-> Service -> DAO
+
+# Development process for Searching customer
+
+1. Create the HTML form
+
+2. Add mapping to the controller
+
+3. Add methods in the service layer to delegate to DAO
+
+4. Add method in the DAO to perfom search
